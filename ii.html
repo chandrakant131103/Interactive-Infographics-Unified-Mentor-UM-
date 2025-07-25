@@ -1,0 +1,50 @@
+<!-- In this project, you will create an interactive infographic that displays data in an engaging and
+visually appealing manner. An interactive infographic is a dynamic representation of information
+that allows users to explore data through various interactive elements like animations, tooltips,
+and user interactions. This project will help you hone your skills in HTML, CSS, and JavaScript,
+while also emphasizing data visualization and user experience -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Renewable Energy Infographic</title>
+    <link rel="stylesheet" href="ii.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><b>Global Renewable Energy Infographic</b></h1>
+            <p>Consumption of renewable energy from 2010 to 2020 various sources</p>
+        </header>
+
+<!--
+controls section -->
+<!-- charts to select -->
+        <section class="controls">
+
+<!-- controls section (select)-->
+            <label for="year">Select Year(s)</label>
+            <select id="year" onchange="updateChart()">
+                <option value="2010">2010</option>
+                <option value="2015">2015</option>
+                <option value="2020">2020</option>
+            </select>
+        </section>
+
+        <!-- chart container -->
+        <section class="chart-container">
+
+            <canvas id="energyChart"></canvas>
+
+        </section>
+        <section class="info">
+            <p>Hover over bars to see detailed consumption</p>
+        </section>
+    </div>
+    <script src="ii.js"></script>
+</body>
+</html>
+
