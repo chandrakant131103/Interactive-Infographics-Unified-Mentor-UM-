@@ -1,3 +1,14 @@
+COMPANY: Unified Mentor Pvt. Ltd
+NAME: Chandrakant Barik
+
+UNID INTERN ID:  UMID01062540399
+
+DOMAIN: Frontend Development Intern
+
+DURATION: 05/06/2025 to 05/08/2025
+
+
+
 Project Documentation: Interactive Infographic
 Topic and Data
 The infographic focuses on Global Renewable Energy Consumption from 2010 to 2020, covering solar, wind, hydro, and bioenergy sources. 
